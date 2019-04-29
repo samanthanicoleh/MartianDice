@@ -1,0 +1,38 @@
+/**
+* CSS for diving the pages into sections (columns and rows)
+* Based on the bootstrap grid system: https://getbootstrap.com/docs/4.0/layout/grid/
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.col-1  {width: 8.333333333%; }
+.col-2  {width: 16.666666666%; }
+.col-3  {width: 23%; }
+.col-4  {width: 41.67%;}
+.col-5  {width: 41.67%;}
+.col-6  {width: 50%;} /* half of the row */
+.col-7  {width: 58.33%; }
+.col-8  {width: 66.67%; }
+.col-9  {width: 75%; }
+.col-10 {width: 83.33%; }
+.col-11 {width: 91.67%; }
+.col-12 {width: 100%;} /*full row*/
+
+
+[class*="col-"] {
+    float: left;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 80vh;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}

@@ -1,0 +1,439 @@
+/*
+* STYLESHEET FOR GAME PROJECT
+* author: samanthaholstead
+*/
+
+/*
+* --------------------------------
+* --------- ALL PAGES ------------
+* --------------------------------
+*/
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth; /*adding smooth scroll*/
+}
+
+.log-in {
+  float: right;
+  padding-top: 0.9em;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+input:hover {
+  transition: 0.5s;
+  border-color: rgba(109, 206, 53, 1);
+}
+
+* {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.03em;
+}
+
+/*
+* --------------------------------
+* --------- INDEX PAGE -----------
+* --------------------------------
+*/
+
+.indexheader {
+  text-align: center;
+  color: #80FF22;
+}
+
+.indexparagraph {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 2em;
+}
+
+.linktosignup {
+  color: #80FF22;
+}
+
+.linktosignup:hover {
+  color: #80FF22;
+  font-size: 1.2em;
+}
+
+.indexpic {
+  width: 100%;
+}
+
+.padding-30px {
+  padding: 30px;
+}
+
+/*
+* --------------------------------
+* -------- SIGN UP PAGE ----------
+* --------------------------------
+*/
+
+.signup-header {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.signupform {
+  padding-left: 2em;
+}
+
+.signupicon {
+  color: #80FF22;
+}
+
+.signupformstyle {
+  margin-top: 2em;
+}
+
+.signup-picture {
+  width: 50%;
+  float: right;
+  margin-right: 7em;
+  margin-top: 1em;
+}
+
+.signupbutton {
+  display: inline-block;
+  padding: 0.4em 1em;
+  border: 0.17em solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #2b2b2a;
+  float: right;
+}
+
+.signupbutton:hover {
+  border-color: rgba(109, 206, 53, 1);
+}
+
+/*
+* --------------------------------
+* ------ HOW TO PLAY PAGE --------
+* --------------------------------
+*/
+
+.square {
+  height: 25em;
+  width: 50em;
+  background-color: #b0f2cf;
+  float: right;
+  border-radius: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  opacity: 0.6;
+}
+
+.square-2 {
+  height: 25em;
+  width: 50em;
+  background-color: #b0f2cf;
+  float: left;
+  border-radius: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  opacity: 0.8;
+}
+
+.square-h1 {
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+.square-p {
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  line-height: 2;
+}
+
+.whole_howto {
+  background-color: black;
+  background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px), radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px), radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  min-height: 100vh;
+}
+
+.tank-img, .deathray-img, .earthling-img {
+  float: left;
+  height: 3.5em;
+  width: 3.5em;
+}
+
+/*
+* --------------------------------
+* --------- LOBBY ROOM -----------
+* --------------------------------
+*/
+
+.listandjoin {
+  padding: 10px;
+  height: 80vh;
+}
+
+#room-list {
+  border: 2px solid black;
+  padding: 10px;
+  min-height: 80vh;
+  width: 100%;
+}
+
+.room {
+  width: 100%;
+  height: 5em;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.joinbtn {
+  float: right;
+  margin: 1em !important;
+}
+
+.roomname {
+  margin: 1em;
+  line-height: 1em;
+  font-size: 1.6em;
+  float: left;
+}
+
+.numspaces {
+  margin: 1em;
+  margin-right: 2em;
+  line-height: 1em;
+  font-size: 1.6em;
+  float: right;
+}
+
+/*
+* --------------------------------
+* ---------- GAME PAGE -----------
+* --------------------------------
+*/
+
+.dice {
+  float: left;
+  width: 3px;
+  margin: 5px;
+  padding-left: 2em;
+}
+
+.startbtn, .choice button, .joinbtn {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.4em 1em;
+  border: 0.17em solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #2b2b2a;
+}
+
+.startbtn:hover, .choice button:hover {
+  border-color: rgba(109, 206, 53, 1);
+}
+
+.sendbutton {
+  float: right;
+}
+
+.game {
+  margin-left: 3em;
+}
+
+.scores {
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.diceScores {
+  width: 100%;
+  height: 16em;
+}
+
+.urscore {
+  border: 2px solid;
+  padding: 0.5em;
+  padding-top: 5px;
+  font-size: 1em;
+  line-height: 2em;
+  width: 5em;
+  height: 100%;
+}
+
+#allscores {
+  border: 2px solid;
+  padding: 0.5em;
+  font-size: 1em;
+  line-height: 2em;
+  width: 95%;
+  margin: 5%;
+  margin-right: 0;
+}
+
+.choice p {
+  font-size: 1.2em;
+}
+
+.choice select {
+  margin-left: 13em;
+}
+
+#keepQuestion {
+  display: none;
+}
+
+/*
+* --------------------------------
+* ---------- CHAT ROOM -----------
+* --------------------------------
+*/
+
+#div_chat {
+  height: 30em;
+  padding: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border: 2px solid black;
+}
+
+.chat {
+  padding: 10px;
+  padding-left: 30px;
+}
+
+#msg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+/*
+* --------------------------------
+* ---------- DICE GAME -----------
+* --------------------------------
+*/
+
+#gameboard {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#die1, #die2, #die3, #die4, #die5, #die6, #die7, #die8, #die9, #die10, #die11, #die12, #die13, .choseDice {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  transform-style: preserve-3d;
+  transition: transform 0.8s linear;
+  cursor: pointer;
+}
+
+#rollboard {
+  position: relative;
+  width: 100% !important;
+  height: 27em !important;
+  top: 0;
+  border: 2px solid black;
+  z-index: -1;
+}
+
+#keepboard {
+  position: relative;
+  width: 100% !important;
+  height: 7em !important;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+#gameboard>div img {
+  height: 100%;
+  width: 100%;
+}
+
+#newRound {
+  display: none;
+}
+
+.diceFace {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+}
+
+.scoreTextDiceFace, .choseDice {
+  position: relative;
+  width: 2em;
+  height: 2em;
+  margin: 5px;
+  transition: 0.5s;
+}
+
+.choseDice {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.choseDice:hover {
+  animation: wiggle 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(-5deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+.human {
+  transform: rotateY(0deg) translateZ(1.5em);
+}
+
+.tank {
+  transform: rotateY(90deg) translateZ(1.5em);
+}
+
+.chicken {
+  transform: rotateY(180deg) translateZ(1.5em);
+}
+
+.cow {
+  transform: rotateY(-90deg) translateZ(1.5em);
+}
+
+.deathray {
+  transform: rotateX(90deg) translateZ(1.5em);
+}
+
+.deathray2 {
+  transform: rotateX(-90deg) translateZ(1.5em);
+}
