@@ -18,9 +18,6 @@ XAMPP is needed to run the project (Apache server and MySQL Database) - availabl
 
 
 
-Extras: Chat, Audio when the dice are rolled.
-
-
 Please note: it is my first time working on such a big project, so there are a few bugs in places. 
 However, I have tried to maintain that the code is as secure and smooth-working as possible.
 
